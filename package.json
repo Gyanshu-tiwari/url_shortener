@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-monorepo",
+  "version": "1.0.0",
+  "description": "Full stack modern URL Shortener with Node.js, Express, MongoDB, React, Redux, and TailwindCSS",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "test:frontend": "npm test --prefix frontend",
+    "test": "npm run test:backend && npm run test:frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "lint:frontend": "npm run lint --prefix frontend"
+  },
+  "keywords": [
+    "url-shortener",
+    "express",
+    "mongodb",
+    "react",
+    "vite",
+    "redux-toolkit",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
